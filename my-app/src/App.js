@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 class App extends Component {
   render() {
     return (
@@ -18,8 +19,10 @@ class App extends Component {
 			    it will load by itself. But watch those single quotes! 
         </p>
 			  <p>			
-			"What a weird bit of technology." 'Single quotes do even stranger things in the editor.'
+			    "What a weird bit of technology." 'Single quotes do even stranger things in the editor.'
         </p>
+			  <p>
+			  </p>
       </div>
     );
   }
